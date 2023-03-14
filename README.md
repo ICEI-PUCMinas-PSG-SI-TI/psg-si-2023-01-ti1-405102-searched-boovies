@@ -12,8 +12,7 @@ Escreva um ou dois parágrafos resumindo o objetivo do seu projeto.
 
 ## Professores responsáveis
 
-* Nome completo do professor 1
-* Nome completo do professor 2
+* Felipe A.L. Reis
 
 ## Quadro de tarefas
 Coloque aqui o link para acesso do Kanban do projeto, seja ele no GitHub ou em outra plataforma.
