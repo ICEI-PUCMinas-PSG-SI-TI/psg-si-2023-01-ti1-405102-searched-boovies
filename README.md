@@ -1,17 +1,17 @@
-# Nome do projeto
-Escreva um ou dois parágrafos resumindo o objetivo do seu projeto.
+Searched Boovies
 
-## Alunos integrantes da equipe
+O objetivo principal desse trabalho é fornecer uma melhor experiência cultural das pessoas por meio de um site que linka livros e filmes entre si. 
+Com categorias de livros/filmes, a tendência é facilitar a interação do usuário com o site, afim de tornar intuitiva a navegação.
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 4
-* Nome completo do aluno 4
+Integrantes do grupo
+* Talita Paixão Brito
+* Davi Eduardo Ferreira Barbosa
+* Jõao Victor Teofilo Barbosa Morais
+* Lucas Pereira de Souza
+* Lucas Henrique de Almeida Silva
+* Artur Amendoeira
 
-## Professores responsáveis
-
+Professor responsável
 * Felipe A.L. Reis
 
 ## Quadro de tarefas
