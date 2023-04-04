@@ -1,9 +1,9 @@
-Searched Boovies
+# Searched Boovies
 
 O objetivo principal desse trabalho é fornecer uma melhor experiência cultural das pessoas por meio de um site que linka livros e filmes entre si. 
 Com categorias de livros/filmes, a tendência é facilitar a interação do usuário com o site, afim de tornar intuitiva a navegação.
 
-Integrantes do grupo
+## Integrantes do grupo
 * Talita Paixão Brito
 * Davi Eduardo Ferreira Barbosa
 * Jõao Victor Teofilo Barbosa Morais
@@ -11,7 +11,7 @@ Integrantes do grupo
 * Lucas Henrique de Almeida Silva
 * Artur Amendoeira
 
-Professor responsável
+## Professor responsável
 * Felipe A.L. Reis
 
 ## Quadro de tarefas
