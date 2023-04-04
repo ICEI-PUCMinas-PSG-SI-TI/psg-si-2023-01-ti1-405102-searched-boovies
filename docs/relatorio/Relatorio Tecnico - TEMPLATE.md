@@ -41,17 +41,17 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
  # Personas
  
 ## Nome: Maria Clara silva 
-Objetos e lugares: ela usa computador, celular e livros físicos.
+* Objetos e lugares: ela usa computador, celular e livros físicos.
 
 
-Idade: 18 
-Objetivos chave: encontrar livros/filmes que se assemelham-se aos livros/filmes que ela procura. 
-Hobby: assistir filmes e ler livros em seu tempo livre. 
-Como devemos tratá-la: deixar tudo fácil pra ela fazer sua pesquisa e conseguir achar com facilidade o que procura no site. 
-Trabalho: estudante
-Nunca devemos: ela fica furiosa quando o site trava ou demora muito para carregar a página.
-Personalidade: dominante
-Sonho: ser escritora
+* Idade: 18 
+* Objetivos chave: encontrar livros/filmes que se assemelham-se aos livros/filmes que ela procura. 
+* Hobby: assistir filmes e ler livros em seu tempo livre. 
+* Como devemos tratá-la: deixar tudo fácil pra ela fazer sua pesquisa e conseguir achar com facilidade o que procura no site. 
+* Trabalho: estudante
+* Nunca devemos: ela fica furiosa quando o site trava ou demora muito para carregar a página.
+* Personalidade: dominante
+* Sonho: ser escritora
 
 
 ## Nome: Israel Drumond Ferreira
