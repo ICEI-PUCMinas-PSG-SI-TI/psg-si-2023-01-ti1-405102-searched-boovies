@@ -7,12 +7,12 @@ Sistemas de Informação
 
 ## Participantes
 
-.Talita Paixão Brito
-Davi Eduardo Ferreira Barbosa
-João Victor Teofilo Barbosa Morais
-Lucas Pereira de Souza
-Lucas Henrique de Almeida Silva
-Artur Amendoeira 
+* Talita Paixão Brito
+* Davi Eduardo Ferreira Barbosa
+* João Victor Teofilo Barbosa Morais
+* Lucas Pereira de Souza
+* Lucas Henrique de Almeida Silva
+* Artur Amendoeira 
 
 
 # Estrutura do Documento
