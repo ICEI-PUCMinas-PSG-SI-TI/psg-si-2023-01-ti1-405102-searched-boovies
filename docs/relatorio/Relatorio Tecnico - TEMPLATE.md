@@ -7,7 +7,7 @@ Sistemas de Informação
 
 ## Participantes
 
-* Talita Paixão Brito
+*Talita Paixão Brito
 * Davi Eduardo Ferreira Barbosa
 * João Victor Teofilo Barbosa Morais
 * Lucas Pereira de Souza
