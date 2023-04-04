@@ -41,9 +41,9 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
  # Personas
  
 ## Nome: Maria Clara silva 
+
+ 
 * Objetos e lugares: ela usa computador, celular e livros físicos.
-
-
 * Idade: 18 
 * Objetivos chave: encontrar livros/filmes que se assemelham-se aos livros/filmes que ela procura. 
 * Hobby: assistir filmes e ler livros em seu tempo livre. 
@@ -55,160 +55,57 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 
 
 ## Nome: Israel Drumond Ferreira
-Objetos e lugares: computador, celular, e revistas
 
-
-Idade: 63
-Objetivos chave: encontrar livros/filmes que falem sobre saúde e bem estar de forma séria e responsável
-Hobby: Ler jornais médicos e caminhar no parque com sua esposa
-Como devemos tratá-lo: deixar o site intuitivo e mostrar que ele pode encontrar várias coisas sobre os mais diversos assuntos de seu interesse
-Trabalho: Pediatra
-Nunca devemos: indicar livros e filmes sobre assuntos sérios, como medicina e saúde, sem deixar claro que o material se trata de ficção ou se é algo documentado e cientificamente acurado.
-Personalidade: sério e formal
-Sonho: se aposentar e viver de forma confortável com sua família, mantendo sempre a saúde de todos em primeiro lugar.
+* Objetos e lugares: computador, celular, e revistas
+* Idade: 63
+* Objetivos chave: encontrar livros/filmes que falem sobre saúde e bem estar de forma séria e responsável
+* Hobby: Ler jornais médicos e caminhar no parque com sua esposa
+* Como devemos tratá-lo: deixar o site intuitivo e mostrar que ele pode encontrar várias coisas sobre os mais diversos assuntos de seu interesse
+* Trabalho: Pediatra
+* Nunca devemos: indicar livros e filmes sobre assuntos sérios, como medicina e saúde, sem deixar claro que o material se trata de ficção ou se é algo documentado e cientificamente acurado.
+* Personalidade: sério e formal
+* Sonho: se aposentar e viver de forma confortável com sua família, mantendo sempre a saúde de todos em primeiro lugar.
 
 
 ## Nome: Heitor Teixeira
-Objetos e lugares: computador, celular, e 
+
+* Objetos e lugares: computador, celular, e 
+* Idade: 23
+* Objetivos chave:Encontrar livros/filmes que estão conforme o gosto de uma pessoa envolvida no mundo dos esportes
+* Hobby: Apostas, Videogames, Eventos.
+* Como devemos tratá-lo: Criando um site prático e benéfico para uma pessoa sonhadora no mundo dos esportes
+* Trabalho: jogador de futsal, sócio de um time de “pelada” que atua participando de diversos campeonatos internos e externos.
+* Nunca devemos: Deixar o site complexo demais de maneira que ele não consiga navegar com facilidade
+* Personalidade: protagonista
+* Sonho: Crescer dentro do mundo dos esportes, seja como influenciador ou até mesmo como atleta
+
+# Histórias de usuário
+
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|--------------------|------------------------------------|----------------------------------------|
+|Maria Clara Silva  | Encontrar filmes que se assemelham a livros que gosto        | Passar meu tempo livre               |
+|IsraelDrumond Ferreira      | Encontrar filmes/séries/livros que tratam sobre a área da saúde               | Me informar mais sobre minha área de trabalho |
+|Heitor Teixeira     |Encontrar conteúdos voltados para o esporte              | Para me informar cada vez mais e curtir meu tempo livre |
+
+# Requisitos
+|ID    | Descrição do Requisito  | Prioridade |
+|------|-----------------------------------------|----|
+|RF-001| O site deve apresentar na página principal filmes/séries/livros que se assemelham | ALTA | 
+|RF-002| O site deve apresentar, para cada filme/série/livro, uma sinopse mostrando as características semelhantes entre elas   | MÉDIA |
+|RF-003| O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar filmes/séries específicas que serão informadas na caixa de pesquisa | ALTA | 
+|RF-004| O site deve permitir visualizar as informações de contatos do mantenedor do site  | MÉDIA |
+|RF-005| O site deve permitir salvar filmes/séries/livros  preferidas | BAIXA| 
+|RF-006| O site deve apresentar, para cada filme/série/livro, uma sinopse mostrando as características semelhantes entre elas   | BAIXA |
+|RF-007| O site deve permitir que usuários possam comentar sobre filmes/séries/livros | BAIXA | 
+|RF-008| O site deve exibir os comentários registrados juntamente com o filme/série/livro exibido  | BAIXA |
 
 
-Idade: 23
-Objetivos chave:Encontrar livros/filmes que estão conforme o gosto de uma pessoa envolvida no mundo dos esportes
-Hobby: Apostas, Videogames, Eventos.
-Como devemos tratá-lo: Criando um site prático e benéfico para uma pessoa sonhadora no mundo dos esportes
-Trabalho: jogador de futsal, sócio de um time de “pelada” que atua participando de diversos campeonatos internos e externos.
-Nunca devemos: Deixar o site complexo demais de maneira que ele não consiga navegar com facilidade
-Personalidade: protagonista
-Sonho: Crescer dentro do mundo dos esportes, seja como influenciador ou até mesmo como atleta
 
-
-
-
-
-
-  - [Histórias de Usuários](#histórias-de-usuários)
-  - [Requisitos](#requisitos)
-- [Projeto da Solução](#projeto-da-solução)
   - [Wireframes](#wireframes)
   - [Mapa de navegação](#mapa-de-navegação)
 - [Conclusões](#avaliação-da-aplicação)
   
-# Introdução
 
-## Problema
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Nesse momento você deve apresentar o problema que a sua aplicação deve
-> resolver. No entanto, não é a hora de comentar sobre a aplicação.
-> Descreva também o contexto em que essa aplicação será usada, se
-> houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de
-> fato existir, pois ainda não é a hora de apresentar requisitos
-> detalhados ou projetos. Utilize como base a ficha inicial de detalhamento do problema.
->
-
-## Objetivos
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Aqui você deve descrever os objetivos do trabalho indicando que o
-> objetivo geral é desenvolver um software para solucionar o problema
-> apresentado acima. Apresente também pelo menos 2 objetivos
-> específicos dependendo de onde você vai querer concentrar ou aprofundar
-> as características do trabalho.
-> 
-> **Link Útil**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
-
-## Público-Alvo
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Descreva quem serão as pessoas que usarão a sua aplicação indicando os
-> diferentes perfis. O objetivo aqui não é definir quem serão os
-> clientes ou quais serão os papéis dos usuários na aplicação. A ideia
-> é, dentro do possível, conhecer um pouco mais sobre o perfil dos
-> usuários: conhecimentos prévios, relação com a tecnologia, relações
-> hierárquicas, etc.
->
-> Adicione informações sobre o público-alvo por meio de uma descrição
-> textual, ou diagramas de personas, mapa de stakeholders, ou como o
-> grupo achar mais conveniente.
-> 
-> **Links Úteis**:
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
- 
-# Especificações do Projeto
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente uma visão geral do que será abordado nesta parte do
-> documento, enumerando as técnicas e/ou ferramentas utilizadas para
-> realizar a especificações do projeto
-
-## Personas
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Relacione as personas identificadas no seu projeto. Lembre-se que 
-> você deve descrever precisamente e de forma personalizada o público alvo do seu projeto. 
-> Você pode incluir uma imagem da ficha de persona desenvolvida. 
->
-> Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina
-> e/ou nos seguintes links:
->
-> **Links Úteis**:
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> 
-> **Exemplo de Ficha**
-> ![Exemplo de Persona](images/persona.png)
- 
-
-## Histórias de Usuários
-
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
-
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-> Seguindo o modelo acima, apresente aqui as histórias de usuário que são relevantes para o
-> projeto de sua solução. As Histórias de Usuário consistem em uma
-> ferramenta poderosa para a compreensão e elicitação dos requisitos
-> da sua aplicação. Utilize as personas criadas como atores e, se for o caso, um administrador. 
->
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-
-## Requisitos
-
-A tabela que segue apresenta os requisitos funcionais do projeto. 
-
-### Requisitos Funcionais
-
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-
-
-> Com base nas Histórias de Usuário, enumere os requisitos da sua
-> solução. Classifique esses requisitos em dois grupos:
->
-> Lembre-se que cada requisito deve corresponder à uma e somente uma
-> característica alvo da sua solução. Além disso, certifique-se de que
-> todos os aspectos capturados nas Histórias de Usuário foram cobertos.
-
-# Projeto da Solução
-
-......  COLOQUE AQUI O SEU TEXTO ......
-> Descreva brevemente quais tecnologias e/ou frameworks foram utilizados no projeto.
 
 ## Wireframes
 
