@@ -101,49 +101,43 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 
 
 
-  - [Wireframes](#wireframes)
   - [Mapa de navegação](#mapa-de-navegação)
 - [Conclusões](#avaliação-da-aplicação)
   
 
 
-## Wireframes
+# Wireframes
+## Home Page
+![Exemplo de Link para Wireframe](https://user-images.githubusercontent.com/127231260/230111510-033cc6b3-62c9-4836-9b9a-a62196375a7a.jpg)
 
-......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
+## Página de pesquisa
+> ![Exemplo de Link para Wireframe](https://user-images.githubusercontent.com/127231260/230113033-fce9d16f-9158-4ee4-9827-92f45a6aef87.png)
 
-> Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
-> estrutura de um site web e seu relacionamentos entre suas
-> páginas. Um wireframe web é uma ilustração semelhante ao
-> layout de elementos fundamentais na interface.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> 
-> **Exemplo**:
-> 
-> ![Exemplo de Link para Wireframe](images/wireframe-example.png)
+## Página de Perfil
+> ![Exemplo de Link para Wireframe](https://user-images.githubusercontent.com/127231260/230121294-f05fcc92-84dd-4dac-a281-0e3a9cd381c3.png)
+
+## Página favoritos
+> ![Exemplo de Link para Wireframe](https://user-images.githubusercontent.com/127231260/230113598-52294fcd-b869-4e41-93b6-bd9392b2cfa1.jpg)
+
+## Página Filme/Livro escolhido
+> ![Exemplo de Link para Wireframe](https://user-images.githubusercontent.com/127231260/230114148-4c9a9f7f-31ae-464e-8d9a-70911a0ef41f.png)
 
 
-## Mapa de navegação
-
-......  COLOQUE AQUI O SEU TEXTO OU DIAGRAMA DE NAVEGAÇÃO .......
-
-> Inclua uma descrição textual ou um diagrama mostrando, sequencialmente, quais ações
-> um usuário deve realizar para utilizar todas as características do seu sistema. 
 
 
-> **Exemplo de Diagrama (opcional, pode ser em texto)**
-> ![Exemplo de Diagrama de Navegação](images/userflow.jpg)
 
-# Conclusões
 
-......  COLOQUE AQUI O SEU TEXTO ......
 
-> Finalize escrevendo um ou dois parágrafos para relembrar o objetivo do projeto, 
-> o que foi possível alcançar e o que ficou para um trabalho futuro, e relembrando
-> as principais dificuldes encontradas e como foi possível contorná-las. 
+
+# Mapa de navegação
+
+ O site tem navegação bem simples como mostrado na imagem abaixo 
+ > O acesso a home page do site é bem instrutivo assim como a aba de criação de perfis, de filmes/séries favoritos, de pesquisa e de filmes/série escolhido
+
+
+
+> ![Exemplo de Diagrama de Navegação](https://user-images.githubusercontent.com/127231260/230121406-0f4fa438-635c-4571-9f05-6c34e027ceeb.png)
+
+
 
 
