@@ -84,8 +84,11 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
 |Maria Clara Silva  | Encontrar filmes que se assemelham a livros que gosto        | Passar meu tempo livre               |
-|IsraelDrumond Ferreira      | Encontrar filmes/séries/livros que tratam sobre a área da saúde               | Me informar mais sobre minha área de trabalho |
+|Israel Drumond Ferreira      | Encontrar filmes/séries/livros que tratam sobre a área da saúde               | Me informar mais sobre minha área de trabalho |
 |Heitor Teixeira     |Encontrar conteúdos voltados para o esporte              | Para me informar cada vez mais e curtir meu tempo livre |
+|Laila de Assis   |   Encontrar livros que se assemelha com filmes infantis          | Para fazer meu filho pegar gosto pela leitura |
+|  Bruno Teixeira  | Encontrar livros e filmes voltados para a área financeira  | Para adquirir mais conhecimentos e arrumar minhas finanças |
+| Mariana Ribeiro  |   Encontrar filmes/livros de romance        |Para me divertir em meu tempo livre  |
 
 # Requisitos
 |ID    | Descrição do Requisito  | Prioridade |
