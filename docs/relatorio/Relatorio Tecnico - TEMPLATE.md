@@ -20,10 +20,10 @@ Sistemas de Informação
 # Introdução
 Cada dia que passa, o número de amantes da leitura e de séries e filmes aumenta cada vez mais, e com isso, a necessidade de se expandir suas experiências nesse universo cresce na mesma proporção.
        
-       Dessa forma, tem-se observado uma enorme necessidade de se ligar ainda mais
+Dessa forma, tem-se observado uma enorme necessidade de se ligar ainda mais
 o mundo da leitura com o mundo das séries e filmes, tendo em vista que muitos filmes baseados em livros ganharam grande destaque em âmbito mundial, e despertaram o interesse de muitos amantes da leitura em acharem filmes que se assemelham a determinados livros já lidos por essas pessoas.
         
-       Diante disso, torna-se fundamental a criação de um canal com interface simples que interligue leitores e amantes de séries e filmes que estão abertos a expandir seus hobbies.
+Diante disso, torna-se fundamental a criação de um canal com interface simples que interligue leitores e amantes de séries e filmes que estão abertos a expandir seus hobbies.
 
   # Problema
   Conforme exposto, o problema que se busca facilitar com este projeto é a limitação e a falta de sites que as pessoas que assistem filmes/series tem ao procurar livros que se assemelhem aos seus filmes/séries favoritos.
@@ -69,7 +69,7 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 
 ## Nome: Heitor Teixeira
 
-* Objetos e lugares: computador, celular, e 
+* Objetos e lugares: computador, celular
 * Idade: 23
 * Objetivos chave:Encontrar livros/filmes que estão conforme o gosto de uma pessoa envolvida no mundo dos esportes
 * Hobby: Apostas, Videogames, Eventos.
