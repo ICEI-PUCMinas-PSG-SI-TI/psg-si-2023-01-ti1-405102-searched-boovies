@@ -104,8 +104,7 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 
 
 
-  - [Mapa de navegação](#mapa-de-navegação)
-- [Conclusões](#avaliação-da-aplicação)
+  
   
 
 
@@ -144,7 +143,8 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 
 
 
-> ![Exemplo de Diagrama de Navegação](https://user-images.githubusercontent.com/127231260/230121406-0f4fa438-635c-4571-9f05-6c34e027ceeb.png)
+> ![Exemplo de Diagrama de Navegação](https://user-images.githubusercontent.com/127231260/231799684-dc67d55e-98c3-4181-a3f4-e85a70cc58a1.png)
+
 
 
 
