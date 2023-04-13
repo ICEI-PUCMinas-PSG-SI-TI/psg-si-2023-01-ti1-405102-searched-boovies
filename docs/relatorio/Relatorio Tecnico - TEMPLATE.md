@@ -110,7 +110,7 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 
 # Wireframes
 ## Home Page
-![Exemplo de Link para Wireframe](https://user-images.githubusercontent.com/127231260/230111510-033cc6b3-62c9-4836-9b9a-a62196375a7a.jpg)
+![Exemplo de Link para Wireframe](https://user-images.githubusercontent.com/127231260/231803360-ea7dbb88-feb8-4fb5-a10b-66de7866cc7b.png)
 
 ## Página de pesquisa
 > ![Exemplo de Link para Wireframe](https://user-images.githubusercontent.com/127231260/230113033-fce9d16f-9158-4ee4-9827-92f45a6aef87.png)
@@ -126,6 +126,7 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
  
 ## Página Comentários
 > ![Exemplo de Link para Wireframe](https://user-images.githubusercontent.com/127231260/231798578-d4a9402b-e0fb-421a-8309-d5b1d2f39c1a.png)
+
 
 
 
