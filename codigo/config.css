@@ -1,0 +1,417 @@
+/*rodape*/
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+   }
+header{
+    border-bottom: 3px solid red;
+    background-color: black;
+    display: flex;
+    
+    
+}
+#dados  {
+    display: flex;
+    font-size: large;
+    list-style: none;
+    text-align: center;
+    position: relative;
+    top: 10px;   
+}
+li{
+    
+    margin-left: 50px;
+    position: relative;
+    top: 37px;
+    font-size: 19px;
+    background-color: inherit;  
+    
+   
+   
+}
+img{
+    margin: 20px;
+}
+#icon{
+    position: relative;
+    bottom: 9px;
+    right: 8px;
+}
+#pesquisa{
+    color: inherit;
+    position: relative;
+    left: 590px;
+    top: 30px;
+    border: 2px solid lightcoral;
+    background-color: red;
+    border-radius: 40%;
+    padding: 18px;
+    width: 20px;
+    height: 20px;
+    transition: 1s;
+    
+        
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+#pesquisa:active {
+    opacity: 0.5;
+    transition:0.5s;
+  }
+  
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffff;
+    
+} 
+
+/* pagina*/
+
+#configs{
+    border: 2px solid rgb(196, 18, 18);
+    padding: 20px;
+    background-color: lightgray;
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    position: relative;
+    left: 325px;
+    border-radius: 40px;
+    
+    
+}
+button{
+    border-radius: 6px;
+    margin-right: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: background-color 1 ease;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+button.active{
+    background-color: black;
+    transition: 0.6s;
+}
+button:hover{
+    background-color:red;
+    padding: 11px 21px;
+    transition: 0.6s;
+}
+
+#sim {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 5px;
+}
+#sim input{
+    margin-right: 5px;
+}
+#sim:hover{
+    background-color:red;
+    padding: 6px;
+    transition: 0.6s;
+}
+
+#nao{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+#Mais-ou-menos{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+label{
+    
+    width: 80px;
+    
+    
+    
+}
+#nao:hover{
+ background-color: red;
+ padding: 6px;
+ transition: 0.6s;
+}
+#tel{
+    padding: 10px 20px;
+    border-radius: 6px;
+    color:black;
+    font-size: 15px;
+}
+h3{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+#title{
+    margin-bottom: 20px;
+}
+
+
+
+/*rodape */
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+
+}
+
+
+.footer-link{
+    text-decoration: none;
+    color: white;
+    
+}
+footer{
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+#footer_content{
+    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 3rem 3.5rem;
+    justify-items: center;
+    width: auto;
+
+}
+#footer_contacts h1{
+    margin-bottom: 0.75rem;
+
+}
+#footer_social_media{
+    display: flex;
+    gap: 2rem   ;
+    margin-top: 1.5rem;
+
+}
+#footer_social_media .footer-link{
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+#instagram{
+    background:linear-gradient(#7f3769,#ff2992,#ff9807);
+    border-radius: 50%;
+    color: inherit;
+    padding: 3px;
+
+}
+#facebook{
+    background-color: rgb(39, 39, 177);
+    border-radius: 50%;
+    color: inherit;
+    padding: 3px;
+}
+#whatsapp{
+    background-color:green;
+    border-radius: 50%;
+    color:inherit;
+    padding: 3px;
+}
+img{
+    margin-bottom: 15px;
+} #footer_social_media .footer-link{
+    font-size: 1.25rem;
+}
+.footer-list{
+    display: flex;
+    list-style: none;
+    
+}
+ul{
+    list-style: none;
+}
+ul li{
+    margin-bottom: 20px;
+}
+#footer_subscribe{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem ;
+    margin-left: 50px;
+}
+#input_group{
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    
+
+}
+#input_group input{
+    padding: 0.75rem;
+    width: 100%;
+}
+#input_group button{
+background-color: rgb(105, 13, 13);
+border: none;
+color: white;
+padding: 0px 1.25rem;
+font-size: 1.125rem;
+height: 100%;
+border-radius: 0px 4px 4px 0px;
+cursor:pointer
+}
+#footer_copyright{
+    text-align: center;
+    border-top: 1px solid white;
+    background-color: rgb(105, 13, 13);
+}
+.footer_link .instagram{
+    color: white;
+}
+@media  screen and (max-width:1300px){
+    footer{
+        width: 100vw;
+    }
+    header{
+        width: 100vw;
+    }
+    #pesquisa{
+        position: absolute;
+        right: 0px;
+    }
+    #configs{
+        position: relative;
+        left: 0px;
+        width: 800px;
+        
+        
+    }
+}
+@media  screen and (max-width:850px){
+    footer{
+        width: 100vw;
+    }
+    #pesquisa{
+        position: absolute;
+        right: 0px;
+        left: 520px;
+        
+    }
+    #footer_subscribe{
+        display: none;
+    }
+    #configs{
+        position: relative;
+        left: 0px;
+        width: 700px;
+        
+        
+    }
+    
+}
+
+
+
+@media  screen and (max-width:768px) {
+    #footer_content{
+        grid-template-columns: repeat(1,1fr);
+        gap: 2rem ;
+        width: 170px;
+        
+        
+    }
+    #footer_copyright{
+        position: relative;
+        right: 160px;
+    }
+    #footer_subscribe{
+        display: none;
+    }
+    #configs{
+        position: relative;
+        left: -40px;
+        padding: 5px;
+        width: 420px;
+    }
+    header{
+        width: 370px;
+        grid-template-columns: repeat(1,1fr);
+        gap: 2rem ;
+        width: 370px;
+        display: grid;
+    }
+    #dados{
+        position: relative;
+        bottom: 20px;
+        margin-top: 0px;
+        margin-bottom: 40px;
+        
+    }
+    #imgC{
+        position: relative;
+        left: 95px;
+    }
+    #pesquisa{
+        position: relative;
+        left: -230px;
+        bottom: 20px;
+        top: -27px;
+    }
+    
+   
+}
+@media  screen and (max-width:480px){
+    img{
+      width:150px;  
+    }
+    #sinopse{
+      position: relative;
+      right: -35px;
+    }
+    #configs{
+        width: 330px;
+    }
+    #footer_copyright{
+        position: relative;
+        left: -20px;
+        right: 50px;
+
+    }
+    #footer_content{
+        width: 250px;
+    }
+
+  }
+  @media  screen and (max-width:415px){
+    #favoritar2{
+      position: relative;
+      left: 25px;
+
+    }
+  }
+  

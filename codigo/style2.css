@@ -1,0 +1,74 @@
+style2.css
+
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+
+nav{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+nav{
+    background-image: url(https://media.istockphoto.com/id/1205633216/pt/foto/abstract-red-and-black-are-light-pattern-with-the-gradient-is-the-with-floor-wall-metal.jpg?s=612x612&w=0&k=20&c=60zB3nosOAVXjvkgyj93ATQhuxxupsmOFTkqU1o4X5I=);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section{
+    position: relative;
+    height: 850px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.swiper{
+    width: 1300px;
+}
+
+.card{
+    position: relative;
+    border-radius: 20px;
+    margin: 20px 0;
+}
+
+section .card .image{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    padding: 10px;
+
+}
+
+section .card .image .img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    transition: all 0.4s;
+    opacity: 60%;
+}
+
+section .card .image .img:hover{
+    transform: scale(1.07);
+    opacity: 100%;
+}
+
+.swiper-pagination{
+    position: absolute;
+}
+
+
+.swiper-button-next, .swiper-button-prev{
+    opacity: 0.7;
+    color: #cc0707;
+    transition: all 0.3s ease;
+}
+
+.swiper-button-next:hover, .swiper-button-prev:hover{
+    opacity: 1;
+    color: #ffffff;
+}
+

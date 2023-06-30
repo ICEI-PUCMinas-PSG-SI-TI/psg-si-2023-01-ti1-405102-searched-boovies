@@ -1,0 +1,94 @@
+/* Estilos para o menu */
+.menu {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.menu-item {
+  position: relative;
+  cursor: pointer;
+}
+
+.menu-item:hover .submenu {
+  display: block;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.submenu-item {
+  padding: 5px 0;
+}
+
+/* Estilos para as letras */
+a {
+  color: white;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+a:hover {
+  color: red;
+}
+</style>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  // Seleciona todos os itens de menu com submenus
+  var menuItems = document.querySelectorAll(".menu-item");
+
+  // Adiciona um ouvinte de evento para cada item de menu
+  menuItems.forEach(function(item) {
+    // Ouvinte de evento para o evento de clique
+    item.addEventListener("click", function(event) {
+      // Verifica se o item de menu possui um submenu
+      var submenu = this.querySelector(".submenu");
+      if (submenu) {
+        // Alterna a exibição do submenu
+        submenu.style.display = submenu.style.display === "block" ? "none" : "block";
+      }
+    });
+  });
+});
+</script>
+</head>
+<body>
+<div class="menu">
+<div class="menu-item">
+  <a href="TelaPrincipal.html">TELA PRINCIPAL</a>
+</div>
+<div class="menu-item">
+  <a href="MinhaConta.html">MEUS DADOS</a>
+  <div class="submenu">
+    <div class="submenu-item"></div>
+    <div class="submenu-item"></div>
+    <div class="submenu-item"></div>
+  </div>
+</div>
+<div class="menu-item">
+  <a href="index.html">CONFIGURAÇÕES</a>
+  <div class="submenu">
+    <div class="submenu-item"></div>
+    <div class="submenu-item"></div>
+    <div class="submenu-item"></div>
+  </div>
+</div>
+<div class="menu-item">
+  <a href="teste.html">TELA DE FAVORITOS</a>
+</div>
+<div class="menu-item">
+  <a href="log.html">SAIR</a>
+</div>
+</div>
+</body>
+</html>

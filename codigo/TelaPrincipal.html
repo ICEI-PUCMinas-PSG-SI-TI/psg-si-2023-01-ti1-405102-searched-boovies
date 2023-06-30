@@ -1,0 +1,1131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Inicial - Searched Boovies</title>
+</head>
+
+<body>
+  <style> 
+    /* Estilos para o menu */
+    .menu {
+      background-color: black;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+    }
+
+    .menu-item {
+      position: relative;
+      cursor: pointer;
+    }
+
+    .menu-item:hover .submenu {
+      display: block;
+    }
+
+    .submenu {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: black;
+      color: white;
+      padding: 10px;
+    }
+
+    .submenu-item {
+      padding: 5px 0;
+    }
+
+    /* Estilos para as letras */
+    a {
+      color: white;
+      text-decoration: none;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+    }
+
+    a:hover {
+      color: red;
+    }
+  </style>
+  <script>
+   document.addEventListener("DOMContentLoaded", function() {
+      // Seleciona todos os itens de menu com submenus
+      var menuItems = document.querySelectorAll(".menu-item");
+
+      // Adiciona um ouvinte de evento para cada item de menu
+      menuItems.forEach(function(item) {
+        // Ouvinte de evento para o evento de clique
+        item.addEventListener("click", function(event) {
+          // Verifica se o item de menu possui um submenu
+          var submenu = this.querySelector(".submenu");
+          if (submenu) {
+            // Alterna a exibição do submenu
+            submenu.style.display = submenu.style.display === "block" ? "none" : "block";
+          }
+        });
+      });
+    });
+  </script>
+</head>
+<body>
+  <div class="menu">
+    <div class="menu-item">
+      <a href="TelaPrincipal.html">TELA PRINCIPAL</a>
+    </div>
+    <div class="menu-item">
+      <a href="MinhaConta.html">MEUS DADOS</a>
+      <div class="submenu">
+        <div class="submenu-item"></div>
+        <div class="submenu-item"></div>
+        <div class="submenu-item"></div>
+      </div>
+    </div>
+    <div class="menu-item">
+      <a href="index.html">CONFIGURAÇÕES</a>
+      <div class="submenu">
+        <div class="submenu-item"></div>
+        <div class="submenu-item"></div>
+        <div class="submenu-item"></div>
+      </div>
+    </div>
+    <div class="menu-item">
+      <a href="arthur.html">TELA DE FAVORITOS</a>
+    </div>
+    <div class="menu-item">
+      <a href="log.html">SAIR</a>
+    </div>
+  </div>
+</body>
+</html>
+
+  <style type="text/css">
+    h1 {
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      margin: 2px;
+      text-align: center;
+      color: red;
+      background-color: black;
+    }
+
+    h2 {
+      font-family: System;
+      margin: 2px;
+      text-align: center;
+      color: red;
+      background-color: black;
+      font-size: 30px;
+    }
+
+    button {
+      color: red;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      margin: auto;
+      display: flex;
+      padding: 15px 30px;
+      font-size: 24px;
+      border: 1px solid black;
+      border-radius: 50px;
+      cursor: pointer;
+      background-color: black;
+    }
+
+    button:hover {
+      background-color: red;
+      color: black;
+    }
+
+    @media screen and (max-width:768px) {
+      button {
+        color: red;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: auto;
+        display: flex;
+        padding: 15px 30px;
+        font-size: 24px;
+        border: 1px solid black;
+        border-radius: 50px;
+        cursor: pointer;
+        background-color: black;
+      }
+
+      button:hover {
+        background-color: red;
+        color: black;
+      }
+    }
+  </style>
+  <header>
+    <link rel="stylesheet" a href="style1.css">
+    <img width="140px" height="90px" src="logo 032.jpeg">
+    <ul id="dados">
+      
+      
+      
+      
+    </ul>
+  </header>
+  <h2>MAIS ASSISTIDOS / MAIS LIDOS</h2>
+  <h2>PARA ISSO:</h2>
+  <br>
+  <button onclick="destaquesBoovies()" id="destaques">CLIQUE AQUI</button>
+  <script type="text/javascript" src="destaques.js"></script>
+
+
+  <br>
+  <h1>AÇÃO E AVENTURA:</h1>
+</body>
+<nav>
+  <link rel="stylesheet" href="style2.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <section>
+    <div class="swiper mySwiper container">
+      <div class="swiper-wrapper content">
+        <!--1-->
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img id="img101" 
+              src="https://play-lh.googleusercontent.com/nz5s7-HJ3iijnvitzCwsa_oD5l7saKAnF_Hv3qGtsP6dtsXTqESZmfuQKqyZZD4UywyB"
+              height="500px" alt="">
+            </div>
+          </div>
+        </div>
+        <!--2-->
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img id="img102" 
+              src="https://images-na.ssl-images-amazon.com/images/S/pv-target-images/06592176e1769dadbac7930216b611f28a7234b792ee88f3afab925edc89fd2b._RI_V_TTW_.jpg"
+              height="500px" alt="">
+            </div>
+          </div>
+        </div>
+        <!--3-->
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img id="img103" 
+              src="https://cinepop.com.br/wp-content/uploads/2020/07/kings-man.jpg"
+              height="500px" alt="">
+            </div>
+          </div>
+        </div>
+        <!--4-->
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img id="img104" 
+              src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSzy3vN0QmTh6FOqXqYMUQWm7q7brhwRLNSi6dwEOMTmAVRZP0C"
+              height="500px" alt="">
+            </div>
+          </div>
+        </div>
+        <!--5-->
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img id="img105" 
+              src="https://m.media-amazon.com/images/I/71Y907CrhRL._AC_UF1000,1000_QL80_.jpg"
+              height="500px" alt="">
+            </div>
+          </div>
+        </div>
+        <!--6-->
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img id="img106" 
+              src="https://books.google.com.br/books/publisher/content?id=2LeZDwAAQBAJ&hl=pt-BR&pg=PA1&img=1&zoom=3&bul=1&sig=ACfU3U1rUrcqALdCRq5yM6Ylnx0iYCN-YQ&w=1280"
+              height="500px" alt="">
+            </div>
+          </div>
+        </div>
+        <!--7-->
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img id="img107" 
+              src="https://m.media-amazon.com/images/I/61swVeECVYL._SY344_BO1,204,203,200_QL70_ML2_.jpg"
+              height="500px" alt="">
+            </div>
+          </div>
+        </div>
+        <!--8-->
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img id="img108" 
+              src="https://m.media-amazon.com/images/I/51srv6HWjZL._SY344_BO1,204,203,200_QL70_ML2_.jpg"
+              height="500px" alt="">
+            </div>
+          </div>
+        </div>
+        <!--9-->
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img id="img109" 
+              src="https://br.web.img3.acsta.net/pictures/21/12/15/16/51/3899884.jpg"
+              height="500px" alt="">
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+
+  </section>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+
+    var swiper = new Swiper(" .mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      slidesPerGroup: 3,
+      loop: true,
+      loopFillGroupWithBlank: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev"
+      }
+    }
+    );
+
+    let text = '{ "carrossel1" : [' +
+      '{ "url": "https://play-lh.googleusercontent.com/nz5s7-HJ3iijnvitzCwsa_oD5l7saKAnF_Hv3qGtsP6dtsXTqESZmfuQKqyZZD4UywyB" }, ' +
+      '{ "url": "https://images-na.ssl-images-amazon.com/images/S/pv-target-images/06592176e1769dadbac7930216b611f28a7234b792ee88f3afab925edc89fd2b._RI_V_TTW_.jpg" }, ' +
+      '{ "url": "https://cinepop.com.br/wp-content/uploads/2020/07/kings-man.jpg" }, ' +
+      '{ "url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSzy3vN0QmTh6FOqXqYMUQWm7q7brhwRLNSi6dwEOMTmAVRZP0C" }, ' +
+      '{ "url": "https://m.media-amazon.com/images/I/71Y907CrhRL._AC_UF1000,1000_QL80_.jpg" }, ' +
+      '{ "url": "https://books.google.com.br/books/publisher/content?id=2LeZDwAAQBAJ&hl=pt-BR&pg=PA1&img=1&zoom=3&bul=1&sig=ACfU3U1rUrcqALdCRq5yM6Ylnx0iYCN-YQ&w=1280" }, ' +
+      '{ "url": "https://m.media-amazon.com/images/I/61swVeECVYL._SY344_BO1,204,203,200_QL70_ML2_.jpg" }, ' +
+      '{ "url": "https://m.media-amazon.com/images/I/51srv6HWjZL._SY344_BO1,204,203,200_QL70_ML2_.jpg" }, ' +
+      '{ "url": "https://br.web.img3.acsta.net/pictures/21/12/15/16/51/3899884.jpg" }, ' +
+      '{ "url": "https://media.fstatic.com/ej_uQ5IS4PCNrNBjmBoFUdyFvZE=/322x478/smart/filters:format(webp)/media/movies/covers/2021/12/cidade_perdida_poster.png" }, ' +
+      '{ "url": "https://cinepop.com.br/wp-content/uploads/2020/07/kings-man.jpg" }, ' +
+      '{ "url": "https://books.google.com.br/books/publisher/content?id=tq3kDwAAQBAJ&hl=pt-BR&pg=PP1&img=1&zoom=3&bul=1&sig=ACfU3U2__lyXmiZ0rPVWWWNWkHOvtdU42w&w=1280" } ' +
+      '] }'
+    let text2 = '{ "carrossel2" : [' +
+        '{ "url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSItxZ8lMvEsxJrCkSdznbcM-Ao_lh6kmDbukPdruw9cjLpV4y6" }, ' +
+        '{ "url": "https://sm.ign.com/ign_br/screenshot/default/creed-3-poster-1_uyuk.jpg" }, ' +
+        '{ "url": "https://br.web.img3.acsta.net/pictures/21/12/15/16/51/3899884.jpg" }, ' +
+        '{ "url": "https://br.web.img3.acsta.net/pictures/21/12/15/16/51/3899884.jpg" }, ' +
+        '{ "url": "https://books.google.com.br/books/publisher/content?id=ld-gEAAAQBAJ&hl=pt-BR&pg=PP1&img=1&zoom=3&bul=1&sig=ACfU3U3ZXQZkoziFHvmjnR_6jr0tczZjnQ&w=1280" }, ' +
+        '{ "url": "https://www.lpm.com.br/livros/imagens/o_jardim_das_cerejeiras_ISBN_hd.jpg" }, ' +
+        '{ "url": "https://m.media-amazon.com/images/I/918Maoi6OML.jpg" }, ' +
+        '{ "url": "https://br.web.img3.acsta.net/pictures/21/12/15/16/51/3899884.jpg" }, ' +
+        '{ "url": "https://br.web.img3.acsta.net/pictures/23/04/24/15/18/0652383.jpg" }, ' +
+        '{ "url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQDPWY5gJW06bUxVQJ3zj6P0oDSs2UD2dkyAGpbwWekR6yCyNVo" }, ' +
+        '{ "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGF2ske5og6UTJiwjm-yUqN8ae0RyU7-T8UAN1xJyCwPWIEY6l" }, ' +
+        '{ "url": "https://m.media-amazon.com/images/I/71XnifrVw3L.jpg" }, ' +
+        '] }'
+    let text3 = '{ "carrossel3" : [' +
+        '{ "url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT_YOQ1K-ZTpbBTK0KyqZSY3BGFBUCGLgRby4QpxloD7KstoIOj" }, ' +
+        '{ "url": "https://johto.legiaodosherois.com.br/wp-content/uploads/2020/10/legiao_ROD9C1peq2lX.jpg" }, ' +
+        '{ "url": "https://cinepop.com.br/wp-content/uploads/2021/09/amizade-de-fe%CC%81rias-1-683x1024.jpeg" }, ' +
+        '{ "url": "https://cinepop.com.br/wp-content/uploads/2021/07/as-branquelas-cartaz.jpg" }, ' +
+        '{ "url": "https://books.google.com.br/books/publisher/content?id=yQldCgAAQBAJ&hl=pt-BR&pg=PP1&img=1&zoom=3&bul=1&sig=ACfU3U0EygT3QM3t7PoWsBMyx5yXvNz4nw&w=1280" }, ' +
+        '{ "url": "https://m.media-amazon.com/images/I/81Dllm6AhdL.jpg" }, ' +
+        '{ "url": "https://m.media-amazon.com/images/I/81b+2KFH4GL.jpg" }, ' +
+        '{ "url": "https://m.media-amazon.com/images/I/71lY3y4fjcS.jpg" }, ' +
+        '{ "url": "https://jovemnerd.com.br/wp-content/uploads/2022/11/esquema_de_risco_operacao_fortune_diamond_films_2_1__2k1c201y.jpg" }, ' +
+        '] }'
+    let text4 = '{ "carrossel4" : [' +
+        '{ "url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRtOe9zdsPgTkuDWZkd0RKGSTZTDR9rR-5rTlIcKrxDeece1X3n" }, ' +
+        '{ "url": "https://artecult.com/wp-content/uploads/2022/12/Gemini-O-Planeta-Sombrio_65x95.jpg" }, ' +
+        '{ "url": "https://poltronanerd.com.br/wp-content/uploads/2022/01/moonfall_ver2_xlg.jpg" }, ' +
+        '{ "url": "https://cinepop.com.br/wp-content/uploads/2021/09/amizade-de-fe%CC%81rias-1-683x1024.jpeg" }, ' +
+        '{ "url": "https://m.media-amazon.com/images/I/71K0ACNXURL.jpg" }, ' +
+        '{ "url": "https://m.media-amazon.com/images/I/91BsZhxCRjL.jpg" }, ' +
+        '{ "url": "https://m.media-amazon.com/images/I/51tAD6LyZ-L.jpg" }, ' +
+        '{ "url": "https://m.media-amazon.com/images/I/91Bx5ilP+EL.jpg" }, ' +
+        '{ "url": "https://dx35vtwkllhj9.cloudfront.net/universalstudios/megan/images/regions/us/onesheet.jpg" }, ' +
+        '] }' 
+    let text5 = '{ "carrossel5" : [' +
+        '{ "url": "https://macabra.tv/wp-content/uploads/2022/03/Cuidado-com-quem-Chama-2020-filme-de-terror-poster-Macabra.jpg" }, ' +
+        '{ "url": "https://br.web.img2.acsta.net/medias/nmedia/18/91/31/38/20277419.jpg" }, ' +
+        '{ "url": "https://dvdefilme.files.wordpress.com/2012/06/sobrenatural.jpg" }, ' +
+        '{ "url": "https://br.web.img2.acsta.net/pictures/210/166/21016629_2013062820083878.jpg" }, ' +
+        '{ "url": "https://m.media-amazon.com/images/I/91+caTCmA5L.jpg" }, ' +
+        '{ "url": "https://m.media-amazon.com/images/I/91fQ51I4TRL.jpg" }, ' +
+        '{ "url": "https://m.media-amazon.com/images/I/41mVQpQs3QL.jpg" }, ' +
+        '{ "url": "https://m.media-amazon.com/images/I/91g9Dvtf+jL.jpg" }, ' +
+        '{ "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpP0uXvUOTCMcvu_CTerznPt6HsWFPOr21zlejvAc5qvp0Qnsb" }, ' +
+        '] }'
+    let text6 = '{ "carrossel6" : [' +
+        '{ "url": "https://assets.cinebelasartes.com.br/wp-content/uploads/2022/06/antes-do-amanhecer.jpg" }, ' +
+        '{ "url": "https://br.web.img3.acsta.net/pictures/17/09/11/23/53/5940465.jpg" }, ' +
+        '{ "url": "https://media.fstatic.com/7buQuvn7VBdO5WA2XwRUYy841Hc=/322x478/smart/filters:format(webp)/media/movies/covers/2021/02/EuiA9rqVIAEetg3.jpg" }, ' +
+        '{ "url": "https://media.fstatic.com/_6Ky8qiEwujlIV33DO2oErADB3o=/322x478/smart/filters:format(webp)/media/movies/covers/2022/01/4e6672c1-a36e-489b-91a4-9d5c03c66dcf.jpg" }, ' +
+        '{ "url": "https://m.media-amazon.com/images/I/71SYepTUsDL.jpg" }, ' +
+        '{ "url": "https://m.media-amazon.com/images/I/917W9lLP8qL.jpg" }, ' +
+        '{ "url": "https://cdn.maioresemelhores.com/imagens/mm-livros-9-cke.jpg" }, ' +
+        '{ "url": "https://m.media-amazon.com/images/I/612Mz98g9VL.jpg" }, ' +
+        '{ "url": "https://www.itaucinemas.com.br/_img/_filmes/4626_capa.jpg?Drive-My-Car" }, ' +
+        '] }'
+
+    //localstorage
+    // debugger
+    const carrossel1 = JSON.parse(text);
+    localStorage.setItem('carrossel1', JSON.stringify(carrossel1));
+    const carrossel2 = JSON.parse(text2);
+    localStorage.setItem('carrossel2', JSON.stringify(carrossel2));
+    const carrossel3 = JSON.parse(text3);
+    localStorage.setItem('carrossel3', JSON.stringify(carrossel3));
+    const carrossel4 = JSON.parse(text4);
+    localStorage.setItem('carrossel4', JSON.stringify(carrossel4));
+    const carrossel5 = JSON.parse(text5);
+    localStorage.setItem('carrossel5', JSON.stringify(carrossel5));
+    const carrossel6 = JSON.parse(text6);
+    localStorage.setItem('carrossel6', JSON.stringify(carrossel6));
+
+
+    // carrossel1
+    var urls = JSON.parse(localStorage.getItem('carrossel1'));
+    console.log("urls". urls)
+
+    for (var i = 0; i < 9; i++) {
+      if (i < 10)
+        id = "img10" + (i + 1);
+      img = document.getElementById(id);
+      img.src = urls.carrossel1[i].url;
+    }
+    // carrossel2
+    var urls = JSON.parse(localStorage.getItem('carrossel2'));
+    console.log("urls". urls)
+    
+    for (var i = 0; i < 9; i++) {
+      if (i < 10)
+        id = "img20" + (i + 1); 
+      img = document.getElementById(id);
+      img.src = urls.carrossel2[i].url;
+    }
+    // carrossel3
+    var urls = JSON.parse(localStorage.getItem('carrossel3'));
+    console.log("urls". urls)
+
+    for (var i = 0; i < 9; i++) {
+      if (i < 10)
+        id = "img30" + (i + 1);
+      img = document.getElementById(id);
+      img.src = urls.carrossel3[i].url;
+    }
+    // carrossel4
+    var urls = JSON.parse(localStorage.getItem('carrossel4'));
+    console.log("urls". urls)
+    
+    for (var i = 0; i < 9; i++) {
+      if (i < 10)
+        id = "img40" + (i + 1);
+      img = document.getElementById(id);
+      img.src = urls.carrossel4[i].url;
+    }
+    // carrossel5
+    var urls = JSON.parse(localStorage.getItem('carrossel5'));
+    console.log("urls". urls)
+    
+    for (var i = 0; i < 9; i++) {
+      if (i < 10)
+        id = "img50" + (i + 1);
+      img = document.getElementById(id);
+      img.src = urls.carrossel5[i].url;
+    }
+    // carrossel6
+    var urls = JSON.parse(localStorage.getItem('carrossel6'));
+    console.log("urls". urls)
+    
+    for (var i = 0; i < 9; i++) {
+      if (i < 10)
+        id = "img60" + (i + 1);
+      img = document.getElementById(id);
+      img.src = urls.carrossel6[i].url;
+    }
+  </script>
+</nav>
+
+<h1>DRAMA:</h1>
+
+<nav>
+  <link rel="stylesheet" href="style3.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <section>
+    <div class="swiper mySwiper container">
+      <div class="swiper-wrapper content">
+        <!--1-->
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img id="img201" 
+                src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSItxZ8lMvEsxJrCkSdznbcM-Ao_lh6kmDbukPdruw9cjLpV4y6"                 
+                height="500px" alt="">
+            </div>
+          </div>
+        </div>
+        <!--2-->
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img id="img202" src="https://sm.ign.com/ign_br/screenshot/default/creed-3-poster-1_uyuk.jpg" height="500px"
+                alt="">
+            </div>
+          </div>
+        </div>
+        <!--3-->
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img id="img203"
+                src="https://m.media-amazon.com/images/I/51UceX1684L.jpg"
+                height="500px" alt="">
+            </div>
+          </div>
+        </div>
+        <!--4-->
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img id="img204"
+                src="https://media.fstatic.com/8V3QPyNChhaoH8KkqVq_MI5BxGE=/210x312/smart/filters:format(webp)/media/movies/covers/2022/06/-97548-poster-xlarge-resized.jpg"
+                height="500px" alt="">
+            </div>
+          </div>
+        </div>
+        <!--5-->
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img id="img205"
+                src="https://books.google.com.br/books/publisher/content?id=ld-gEAAAQBAJ&hl=pt-BR&pg=PP1&img=1&zoom=3&bul=1&sig=ACfU3U3ZXQZkoziFHvmjnR_6jr0tczZjnQ&w=1280"
+                height="500px" alt="">
+            </div>
+          </div>
+        </div>
+        <!--6-->
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img id="img206" src="https://www.lpm.com.br/livros/imagens/o_jardim_das_cerejeiras_ISBN_hd.jpg"
+                height="500px" alt="">
+            </div>
+          </div>
+        </div>
+        <!--7-->
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img id="img207" src="https://m.media-amazon.com/images/I/918Maoi6OML.jpg" height="500px" alt="">
+            </div>
+          </div>
+        </div>
+        <!--8-->
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img id="img208"
+                src="https://m.media-amazon.com/images/I/51-8tjN4K3L.jpg"
+                height="500px" alt="">
+            </div>
+          </div>
+        </div>
+        <!--9-->
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img id="img209" src="https://br.web.img3.acsta.net/pictures/23/04/24/15/18/0652383.jpg" height="500px"
+                alt="">
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+
+  </section>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    //debugger
+    var swiper = new Swiper(" .mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      slidesPerGroup: 3,
+      loop: true,
+      loopFillGroupWithBlank: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev"
+      }
+    }
+    )
+  </script>
+</nav>
+
+<h1>COMÉDIA:</h1>
+
+<nav>
+  <link rel="stylesheet" href="style2.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <section>
+    <div class="swiper mySwiper container">
+      <div class="swiper-wrapper content">
+        <!--1-->
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img id="img301"
+                src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT_YOQ1K-ZTpbBTK0KyqZSY3BGFBUCGLgRby4QpxloD7KstoIOj"
+                height="500px" alt="">
+            </div>
+          </div>
+        </div>
+        <!--2-->
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img id="img302"
+                src="https://johto.legiaodosherois.com.br/wp-content/uploads/2020/10/legiao_ROD9C1peq2lX.jpg"
+                height="500px" alt="">
+            </div>
+          </div>
+        </div>
+        <!--3-->
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img id="img303"
+                src="https://cinepop.com.br/wp-content/uploads/2021/09/amizade-de-fe%CC%81rias-1-683x1024.jpeg"
+                height="500px" alt="">
+            </div>
+          </div>
+        </div>
+        <!--4-->
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img id="img304" src="https://cinepop.com.br/wp-content/uploads/2021/07/as-branquelas-cartaz.jpg"
+                height="500px" alt="">
+            </div>
+          </div>
+        </div>
+        <!--5-->
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img id="img305"
+                src="https://books.google.com.br/books/publisher/content?id=yQldCgAAQBAJ&hl=pt-BR&pg=PP1&img=1&zoom=3&bul=1&sig=ACfU3U0EygT3QM3t7PoWsBMyx5yXvNz4nw&w=1280"
+                height="500px" alt="">
+            </div>
+          </div>
+        </div>
+        <!--6-->
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img id="img306" src="https://m.media-amazon.com/images/I/81Dllm6AhdL.jpg" height="500px" alt="">
+            </div>
+          </div>
+        </div>
+        <!--7-->
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img id="img307" src="https://m.media-amazon.com/images/I/81b+2KFH4GL.jpg" height="500px" alt="">
+            </div>
+          </div>
+        </div>
+        <!--8-->
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img id="img308" src="https://m.media-amazon.com/images/I/71lY3y4fjcS.jpg" height="500px" alt="">
+            </div>
+          </div>
+        </div>
+        <!--9-->
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img id="img309"
+                src="https://jovemnerd.com.br/wp-content/uploads/2022/11/esquema_de_risco_operacao_fortune_diamond_films_2_1__2k1c201y.jpg"
+                height="500px" alt="">
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+
+  </section>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+
+    var swiper = new Swiper(" .mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      slidesPerGroup: 3,
+      loop: true,
+      loopFillGroupWithBlank: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev"
+      }
+    }
+    )
+  </script>
+</nav>
+
+<h1>FICÇÃO CIENTÍFICA:</h1>
+
+<nav>
+  <link rel="stylesheet" href="style2.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <section>
+    <div class="swiper mySwiper container">
+      <div class="swiper-wrapper content">
+        <!--1-->
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img id="img401"
+                src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRtOe9zdsPgTkuDWZkd0RKGSTZTDR9rR-5rTlIcKrxDeece1X3n"
+                height="500px" alt="">
+            </div>
+          </div>
+        </div>
+        <!--2-->
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img id="img402" src="https://artecult.com/wp-content/uploads/2022/12/Gemini-O-Planeta-Sombrio_65x95.jpg"
+                height="500px" alt="">
+            </div>
+          </div>
+        </div>
+        <!--3-->
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img id="img403" src="https://poltronanerd.com.br/wp-content/uploads/2022/01/moonfall_ver2_xlg.jpg"
+                height="500px" alt="">
+            </div>
+          </div>
+        </div>
+        <!--4-->
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img id="img404"
+                src="https://acapivaradeucria.com.br/wp-content/uploads/2023/01/a6fe0e439a9ff4e304e0b6ff30992141_XL.jpg"
+                height="500px" alt="">
+            </div>
+          </div>
+        </div>
+        <!--5-->
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img id="img405" src="https://m.media-amazon.com/images/I/71K0ACNXURL.jpg" height="500px" alt="">
+            </div>
+          </div>
+        </div>
+        <!--6-->
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img id="img406" src="https://m.media-amazon.com/images/I/91BsZhxCRjL.jpg" height="500px" alt="">
+            </div>
+          </div>
+        </div>
+        <!--7-->
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img id="img407" src="https://m.media-amazon.com/images/I/51tAD6LyZ-L.jpg" height="500px" alt="">
+            </div>
+          </div>
+        </div>
+        <!--8-->
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img id="img408" src="https://m.media-amazon.com/images/I/91Bx5ilP+EL.jpg" height="500px" alt="">
+            </div>
+          </div>
+        </div>
+        <!--9-->
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img id="img409"
+                src="https://dx35vtwkllhj9.cloudfront.net/universalstudios/megan/images/regions/us/onesheet.jpg"
+                height="500px" alt="">
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+
+  </section>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+
+    var swiper = new Swiper(" .mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      slidesPerGroup: 3,
+      loop: true,
+      loopFillGroupWithBlank: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev"
+      }
+    }
+    )
+  </script>
+</nav>
+
+<h1>TERROR:</h1>
+
+<nav>
+  <link rel="stylesheet" href="style2.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <section>
+    <div class="swiper mySwiper container">
+      <div class="swiper-wrapper content">
+        <!--1-->
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img id="img501"
+                src="https://macabra.tv/wp-content/uploads/2022/03/Cuidado-com-quem-Chama-2020-filme-de-terror-poster-Macabra.jpg"
+                height="500px" alt="">
+            </div>
+          </div>
+        </div>
+        <!--2-->
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img id="img502" src="https://br.web.img2.acsta.net/medias/nmedia/18/91/31/38/20277419.jpg" height="500px"
+                alt="">
+            </div>
+          </div>
+        </div>
+        <!--3-->
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img id="img503" src="https://dvdefilme.files.wordpress.com/2012/06/sobrenatural.jpg" height="500px" alt="">
+            </div>
+          </div>
+        </div>
+        <!--4-->
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img id="img504" src="https://br.web.img2.acsta.net/pictures/210/166/21016629_2013062820083878.jpg"
+                height="500px" alt="">
+            </div>
+          </div>
+        </div>
+        <!--5-->
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img id="img505" src="https://m.media-amazon.com/images/I/91+caTCmA5L.jpg" height="500px" alt="">
+            </div>
+          </div>
+        </div>
+        <!--6-->
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img id="img506" src="https://m.media-amazon.com/images/I/91fQ51I4TRL.jpg" height="500px" alt="">
+            </div>
+          </div>
+        </div>
+        <!--7-->
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img id="img507" src="https://m.media-amazon.com/images/I/41mVQpQs3QL.jpg" height="500px" alt="">
+            </div>
+          </div>
+        </div>
+        <!--8-->
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img id="img508" src="https://m.media-amazon.com/images/I/91g9Dvtf+jL.jpg" height="500px" alt="">
+            </div>
+          </div>
+        </div>
+        <!--9-->
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img id="img509"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpP0uXvUOTCMcvu_CTerznPt6HsWFPOr21zlejvAc5qvp0Qnsb"
+                height="500px" alt="">
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+
+  </section>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+
+    var swiper = new Swiper(" .mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      slidesPerGroup: 3,
+      loop: true,
+      loopFillGroupWithBlank: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev"
+      }
+    }
+    )
+  </script>
+</nav>
+
+<h1>ROMANCE:</h1>
+
+<nav>
+  <link rel="stylesheet" href="style2.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <section>
+    <div class="swiper mySwiper container">
+      <div class="swiper-wrapper content">
+        <!--1-->
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img id="img601"
+                src="https://assets.cinebelasartes.com.br/wp-content/uploads/2022/06/antes-do-amanhecer.jpg"
+                height="500px" alt="">
+            </div>
+          </div>
+        </div>
+        <!--2-->
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img id="img602" src="https://br.web.img3.acsta.net/pictures/17/09/11/23/53/5940465.jpg" height="500px"
+                alt="">
+            </div>
+          </div>
+        </div>
+        <!--3-->
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img id="img603"
+                src="https://media.fstatic.com/7buQuvn7VBdO5WA2XwRUYy841Hc=/322x478/smart/filters:format(webp)/media/movies/covers/2021/02/EuiA9rqVIAEetg3.jpg"
+                height="500px" alt="">
+            </div>
+          </div>
+        </div>
+        <!--4-->
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img id="img604"
+                src="https://media.fstatic.com/_6Ky8qiEwujlIV33DO2oErADB3o=/322x478/smart/filters:format(webp)/media/movies/covers/2022/01/4e6672c1-a36e-489b-91a4-9d5c03c66dcf.jpg"
+                height="500px" alt="">
+            </div>
+          </div>
+        </div>
+        <!--5-->
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img id="img605" src="https://m.media-amazon.com/images/I/71SYepTUsDL.jpg" height="500px" alt="">
+            </div>
+          </div>
+        </div>
+        <!--6-->
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img id="img606" src="https://m.media-amazon.com/images/I/917W9lLP8qL.jpg" height="500px" alt="">
+            </div>
+          </div>
+        </div>
+        <!--7-->
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img id="img607" src="https://cdn.maioresemelhores.com/imagens/mm-livros-9-cke.jpg" height="500px" alt="">
+            </div>
+          </div>
+        </div>
+        <!--8-->
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img id="img608" src="https://m.media-amazon.com/images/I/612Mz98g9VL.jpg" height="500px" alt="">
+            </div>
+          </div>
+        </div>
+        <!--9-->
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img id="img609" src="https://www.itaucinemas.com.br/_img/_filmes/4626_capa.jpg?Drive-My-Car" height="500px"
+                alt="">
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+
+  </section>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+
+    var swiper = new Swiper(" .mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      slidesPerGroup: 3,
+      loop: true,
+      loopFillGroupWithBlank: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev"
+      }
+    }
+    )
+  </script>
+</nav>
+
+<footer>
+  <link rel="stylesheet" href="style3.css">
+  <div id="footer_content">
+    <div id="footer_contacts">
+      <img width="130" height="70px" src="logo 2.jpg">
+      <p>Searched Boovies</p>
+      <div id="footer_social_media">
+        <a href="#" class="footer_link" id="instagram">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram"
+            viewBox="0 0 16 16">
+            <path
+              d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+          </svg>
+        </a>
+        <a href="#" class="footer_link" id="facebook">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook"
+            viewBox="0 0 16 16">
+            <path
+              d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+          </svg>
+        </a>
+        <a href="#" class="footer_link" id="whatsapp">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp"
+            viewBox="0 0 16 16">
+            <path
+              d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+          </svg>
+        </a>
+      </div>
+    </div>
+    <ul id="footer-list" id="prim">
+      <li>
+        <h3>Fale conosco</h3>
+      </li>
+      <li>
+        <a href="#" class="footer-link">searchedboovies@gmail.com</a>
+      </li>
+      <li>
+        <a href="#" class="footer-link">(31)998475050</a>
+      </li>
+
+    </ul>
+    <ul id="footer-list">
+      <li>
+        <h3>Navegue pelo site</h3>
+      </li>
+      <li>
+        <a href="#" class="footer-link">Pagina inicial</a>
+      </li>
+      <li>
+        <a href="#" class="footer-link">Favoritos</a>
+      </li>
+      <li>
+        <a href="#" class="footer-link">Meu perfil</a>
+      </li>
+    </ul>
+    <div id="footer_subscribe">
+      <h3>Receba novidades</h3>
+      <p>
+        Coloque seu e-mail para receber mais noticias de livros, séries e filmes
+      </p>
+      <div id="input_group">
+        <input type="email" id="e-mail">
+        <button>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope"
+            viewBox="0 0 16 16">
+            <path
+              d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div id="footer_copyright">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-c-circle-fill"
+      viewBox="0 0 16 16">
+      <path
+        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM8.146 4.992c.961 0 1.641.633 1.729 1.512h1.295v-.088c-.094-1.518-1.348-2.572-3.03-2.572-2.068 0-3.269 1.377-3.269 3.638v1.073c0 2.267 1.178 3.603 3.27 3.603 1.675 0 2.93-1.02 3.029-2.467v-.093H9.875c-.088.832-.75 1.418-1.729 1.418-1.224 0-1.927-.891-1.927-2.461v-1.06c0-1.583.715-2.503 1.927-2.503Z" />
+    </svg>
+
+    2023 all rights reserved
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+</html>

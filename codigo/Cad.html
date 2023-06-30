@@ -1,0 +1,90 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Cadastro</title>
+      <link rel="stylesheet" href="cad.css">
+     
+      
+      
+  </head>
+
+    <body>
+    
+
+
+
+
+
+      <div class="container">
+        <div class="logo">
+          <img src="logo 032.jpeg" alt="SearchedBoovies Logo">
+          <br> 
+          <h1>SearchedBoovies <br> </h1>
+        </div>
+        <div class="nmt">
+          
+          <h2>Cadastro</h2>
+        </div>
+      
+      
+        <form>
+          <input type="text" name="name" placeholder="Nome Completo" required>
+          <input type="text" name="email" placeholder="E-mail" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Digite um email válido Exemplo: SearchedBoovies@pucminas.com">
+          <input type="password" name="password" placeholder="Senha" required>
+          <input type="date" name="dob" placeholder="Data de Nascimento" required>
+          <button type="submit">Cadastrar</button>
+        </form>
+        
+        <div class="signup">
+          <p>Já tem uma conta? <a href="log.html">Entre agora!</a></p>
+        </div>
+      </div>
+      
+      <script>
+        // Verificar se há dados salvos no localStorage ao carregar a página
+        window.addEventListener("DOMContentLoaded", function() {
+          var nomeInput = document.getElementsByName("name")[0];
+          var emailInput = document.getElementsByName("email")[0];
+          var senhaInput = document.getElementsByName("password")[0];
+          var dataNascimentoInput = document.getElementsByName("dob")[0];
+    
+          // Preencher campos com dados do localStorage, se existirem
+          if (localStorage.getItem("dadosFormulario")) {
+            var dadosFormulario = JSON.parse(localStorage.getItem("dadosFormulario"));
+    
+            nomeInput.value = dadosFormulario.nome;
+            emailInput.value = dadosFormulario.email;
+            senhaInput.value = dadosFormulario.senha;
+            dataNascimentoInput.value = dadosFormulario.dataNascimento;
+          }
+    
+          // Evento para salvar os dados do formulário no localStorage ao enviar
+          document.querySelector("form").addEventListener("submit", function(event) {
+            event.preventDefault(); // Impedir o envio do formulário
+    
+            var nome = nomeInput.value;
+            var email = emailInput.value;
+            var senha = senhaInput.value;
+            var dataNascimento = dataNascimentoInput.value;
+    
+            var dadosFormulario = {
+              nome: nome,
+              email: email,
+              senha: senha,
+              dataNascimento: dataNascimento
+            };
+    
+            localStorage.setItem("dadosFormulario", JSON.stringify(dadosFormulario));
+    
+            alert("Cadastro realizado com sucesso!");
+            window.location.href = "log.html"
+          });
+        });
+      </script>
+    </body>
+    
+    </div>
+  </html>

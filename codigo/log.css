@@ -1,0 +1,123 @@
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: black;
+        color: white;
+        font-family: Arial, sans-serif;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+      .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+      }
+      .logo img {
+        width: 180px;
+        margin-right: 10px;
+      }
+      h1 {
+        font-size: 36px;
+        margin-bottom: 30px;
+      }
+      input[type="text"], input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        border: none;
+        background-color: #333;
+        color: white;
+        font-size: 18px;
+      }
+      button {
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: none;
+        background-color: red;
+        color: white;
+        font-size: 18px;
+        cursor: pointer;
+      }
+      .signup {
+        margin-top: 20px;
+        text-align: center;
+      }
+      .signup a {
+        color: red;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      
+      
+      .error {
+        color: red;
+        margin-top: 5px;
+      }
+      button:focus {
+        outline: none;
+      }
+      
+      button.clicked {
+        background-color: #ff3333;
+        color: white;
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+        transform: translateY(1px);
+      }
+      .support {
+        position: fixed;
+        bottom: 20px;
+        left: 20px;
+        background-color: red;
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+      }
+      
+     
+      body {
+        background-image: url('4b47a346-ba89-41bd-b18b-ed62e333a387.jpg');
+        background-size: cover;
+      }
+      body {
+        background-image: url('4b47a346-ba89-41bd-b18b-ed62e333a387.jpg');
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+      @media screen and (max-width: 768px) {
+        body {
+          font-size: 10px; /* Altera o tamanho da fonte para telas menores */
+        }
+      
+        .container {
+          padding: 0 20px; /* Reduz o preenchimento da container em telas menores */
+        }
+      
+        .logo img {
+          width: 90px; /* Reduz o tamanho da imagem da logo em telas menores */
+        }
+      
+        h1 {
+          font-size: 20px; /* Reduz o tamanho da fonte do título em telas menores */
+        }
+      
+        input[type="text"], input[type="password"] {
+          font-size: 16px; /* Altera o tamanho da fonte dos campos de entrada em telas menores */
+        }
+      
+        button {
+          font-size: 16px; /* Altera o tamanho da fonte do botão em telas menores */
+        }
+      }

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../projeto05.2.0"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Cadastro 01"
+	}
+}
