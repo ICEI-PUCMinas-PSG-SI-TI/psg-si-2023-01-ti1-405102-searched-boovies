@@ -90,11 +90,11 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 # Requisitos
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| O site deve apresentar na página principal filmes/séries/livros que se assemelham | ALTA | 
-|RF-002| O site deve apresentar, para cada filme/série/livro, uma sinopse mostrando as características semelhantes entre elas   | MÉDIA |
-|RF-003| O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar filmes/séries específicas que serão informadas na caixa de pesquisa | ALTA | 
-|RF-004| O site deve permitir visualizar as informações de contatos do mantenedor do site  | MÉDIA |
-|RF-005| O site deve permitir salvar filmes/séries/livros  preferidas | BAIXA| 
+|RF-001| O site deve apresentar na página principal filmes/séries/livros  | ALTA | 
+|RF-002| O site deve apresentar, para cada filme/série/livro, uma sinopse ou um resumo detalhado   | MÉDIA |
+|RF-003| O site deve oferecer uma funcionalidade de favoritos para facilitar o acesso a filmes e livros | ALTA | 
+|RF-004| O site deve permitir visualizar as informações de cadastro  | MÉDIA |
+|RF-005| O site deve mostrar filmes/séries/livros mais assistidos | ALTA| 
 |RF-006| O site deve apresentar, para cada filme/série/livro, uma sinopse mostrando as características semelhantes entre elas   | BAIXA |
 |RF-007| O site deve permitir que usuários possam comentar sobre filmes/séries/livros | BAIXA | 
 |RF-008| O site deve exibir os comentários registrados juntamente com o filme/série/livro exibido  | BAIXA |
