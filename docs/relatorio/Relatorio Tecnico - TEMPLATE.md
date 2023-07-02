@@ -80,7 +80,7 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Maria Clara Silva  | Encontrar filmes que se assemelham a livros que gosto        | Passar meu tempo livre               |
+|Maria Clara Silva  | Encontrar novos filmes/livros        | Passar meu tempo livre               |
 |Israel Drumond Ferreira      | Encontrar filmes/séries/livros que tratam sobre a área da saúde               | Me informar mais sobre minha área de trabalho |
 |Heitor Teixeira     |Encontrar conteúdos voltados para o esporte              | Para me informar cada vez mais e curtir meu tempo livre |
 |Laila de Assis   |   Encontrar livros e filmes infatis          | Para fazer meu filho pegar gosto pela leitura |
