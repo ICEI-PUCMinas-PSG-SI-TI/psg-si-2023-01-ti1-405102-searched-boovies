@@ -106,6 +106,12 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 
 
 # Wireframes
+## Tela de cadastro
+![Exemplo de Link para Wireframe]
+
+## Tela de Login
+![Exemplo de Link para Wireframe]
+
 ## Home Page
 ![Exemplo de Link para Wireframe](https://user-images.githubusercontent.com/127231260/231803360-ea7dbb88-feb8-4fb5-a10b-66de7866cc7b.png)
 
