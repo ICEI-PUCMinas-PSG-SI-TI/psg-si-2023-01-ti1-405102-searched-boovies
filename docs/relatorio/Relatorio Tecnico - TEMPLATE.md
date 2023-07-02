@@ -90,7 +90,7 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 # Requisitos
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| O site deve apresentar na página principal filmes/séries/livros  | ALTA | 
+|RF-001| O site deve apresentar na página principal filmes/séries/livros separados por categorias  | ALTA | 
 |RF-002| O site deve apresentar, para cada filme/série/livro, uma sinopse ou um resumo detalhado   | MÉDIA |
 |RF-003| O site deve oferecer uma funcionalidade de favoritos para facilitar o acesso a filmes e livros | ALTA | 
 |RF-004| O site deve permitir visualizar as informações de cadastro  | MÉDIA |
