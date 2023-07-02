@@ -29,7 +29,7 @@ Diante disso, torna-se fundamental a criação de um canal com interface simples
   Conforme exposto, o problema que se busca facilitar com este projeto é a limitação e a falta de sites que as pessoas que assistem filmes/series tem ao procurar livros que se assemelhem aos seus filmes/séries favoritos.
   
   # Objetivos
-  O objetivo principal desse trabalho é fornecer uma melhor experiência cultural das pessoas por meio de um site que linka livros e filmes entre si. 
+  O objetivo principal desse trabalho é fornecer uma melhor experiência cultural das pessoas por meio de um site que informa resumos e sinopse de livros e filmes. 
 Com categorias de livros/filmes, a tendência é facilitar a interação do usuário com o site, afim de tornar intuitiva a navegação.
 
   # Publico-alvo
