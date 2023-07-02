@@ -20,13 +20,10 @@ Sistemas de Informação
 # Introdução
 Cada dia que passa, o número de amantes da leitura e de séries e filmes aumenta cada vez mais, e com isso, a necessidade de se expandir suas experiências nesse universo cresce na mesma proporção.
        
-Dessa forma, tem-se observado uma enorme necessidade de se ligar ainda mais
-o mundo da leitura com o mundo das séries e filmes, tendo em vista que muitos filmes baseados em livros ganharam grande destaque em âmbito mundial, e despertaram o interesse de muitos amantes da leitura em acharem filmes que se assemelham a determinados livros já lidos por essas pessoas.
-        
-Diante disso, torna-se fundamental a criação de um canal com interface simples que interligue leitores e amantes de séries e filmes que estão abertos a expandir seus hobbies.
+O projeto "SearchedBoovies" visa fornecer aos usuários uma experiência agradável e informativa ao explorar e descobrir novos títulos. Através de sinopses e resumos bem escritos, o site ajuda os usuários a obter uma visão geral das histórias e a tomar decisões informadas sobre quais livros e filmes desejam explorar. Com uma interface intuitiva e funcionalidades adicionais, o site busca oferecer uma experiência completa para os amantes de livros e filmes.
 
   # Problema
-  Conforme exposto, o problema que se busca facilitar com este projeto é a limitação e a falta de sites que as pessoas que assistem filmes/series tem ao procurar livros que se assemelhem aos seus filmes/séries favoritos.
+  Conforme exposto, o problema que se busca facilitar com esse projeto é a falta de sites que mostra o resumo/sinopse dos filmes/séries/livros que as pessoas assistem/lêem.
   
   # Objetivos
   O objetivo principal desse trabalho é fornecer uma melhor experiência cultural das pessoas por meio de um site que informa resumos e sinopse de livros e filmes. 
@@ -34,7 +31,7 @@ Com categorias de livros/filmes, a tendência é facilitar a interação do usu�
 
   # Publico-alvo
   Apesar de todas as pessoas possuírem capacidades de conseguir uma maneira de se manterem informadas por causa de todo um amplo conhecimento tecnológico, presente nos dias atuais, o real objetivo desse trabalho é buscar um público que tem certo hábito em leituras e telespectadores de filmes. Com isso, busca-se um intuito de abranger múltiplos gostos diferentes de acordo com suas áreas de atuação a fim de despertarem a vontade nas pessoas de adquirir uma conceituação para sua vida.
-Portanto, estabeleceu-se como público-alvo desse projeto homens e mulheres acima de 18 anos que se encontram animados para relacionar filmes/livros em busca de uma mesma ideologia encontrada ou vista pela pessoa. Dessa maneira, o trabalho busca tópicos que vão além dos assuntos totalmente relacionados às suas atividades profissionais, trazendo à tona uma forma de passatempo no dia a dia ou também expandir seus conhecimentos e explorar sua imaginação
+Portanto, estabeleceu-se como público-alvo desse projeto homens e mulheres acima de 18 anos que se encontram animados para descobrir filmes/livros em busca de uma mesma ideologia encontrada ou vista pela pessoa. Dessa maneira, o trabalho busca tópicos que vão além dos assuntos totalmente relacionados às suas atividades profissionais, trazendo à tona uma forma de passatempo no dia a dia ou também expandir seus conhecimentos e explorar sua imaginação
 
 # Especificações do projeto
 A definição exata do problema e os pontos mais relevantes a serem tratados neste projeto foi consolidada com a participação dos usuários em um trabalho de imersão feita pelos membros da equipe a partir da observação dos usuários em seu local natural e por meio de entrevistas. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários.
@@ -45,7 +42,7 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
  
 * Objetos e lugares: ela usa computador, celular e livros físicos.
 * Idade: 18 
-* Objetivos chave: encontrar livros/filmes que se assemelham-se aos livros/filmes que ela procura. 
+* Objetivos chave: encontrar livros/filmes novos baseados em sinopses e resumos. 
 * Hobby: assistir filmes e ler livros em seu tempo livre. 
 * Como devemos tratá-la: deixar tudo fácil pra ela fazer sua pesquisa e conseguir achar com facilidade o que procura no site. 
 * Trabalho: estudante
@@ -86,7 +83,7 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 |Maria Clara Silva  | Encontrar filmes que se assemelham a livros que gosto        | Passar meu tempo livre               |
 |Israel Drumond Ferreira      | Encontrar filmes/séries/livros que tratam sobre a área da saúde               | Me informar mais sobre minha área de trabalho |
 |Heitor Teixeira     |Encontrar conteúdos voltados para o esporte              | Para me informar cada vez mais e curtir meu tempo livre |
-|Laila de Assis   |   Encontrar livros que se assemelha com filmes infantis          | Para fazer meu filho pegar gosto pela leitura |
+|Laila de Assis   |   Encontrar livros e filmes infatis          | Para fazer meu filho pegar gosto pela leitura |
 |  Bruno Teixeira  | Encontrar livros e filmes voltados para a área financeira  | Para adquirir mais conhecimentos e arrumar minhas finanças |
 | Mariana Ribeiro  |   Encontrar filmes/livros de romance        |Para me divertir em meu tempo livre  |
 
