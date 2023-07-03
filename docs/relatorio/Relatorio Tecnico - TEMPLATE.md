@@ -119,7 +119,7 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 > ![Exemplo de Link para Wireframe]([https://user-images.githubusercontent.com/127231260/230113033-fce9d16f-9158-4ee4-9827-92f45a6aef87.png](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-si-2023-01-ti1-405102-searched-boovies/blob/master/docs/destaques.jpg)
 
 ## Meus dados
-> ![Exemplo de Link para Wireframe](https://user-images.githubusercontent.com/127231260/230121294-f05fcc92-84dd-4dac-a281-0e3a9cd381c3.png)
+> ![Exemplo de Link para Wireframe]([https://user-images.githubusercontent.com/127231260/230121294-f05fcc92-84dd-4dac-a281-0e3a9cd381c3.png](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-si-2023-01-ti1-405102-searched-boovies/blob/master/docs/meusdados.jpg))
 
 ## Página favoritos
 > ![Exemplo de Link para Wireframe](https://user-images.githubusercontent.com/127231260/230113598-52294fcd-b869-4e41-93b6-bd9392b2cfa1.jpg)
