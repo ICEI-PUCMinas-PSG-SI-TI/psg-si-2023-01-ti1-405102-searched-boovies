@@ -107,16 +107,16 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 
 # Wireframes
 ## Tela de cadastro
-![Exemplo de Link para Wireframe](docs/cadastro.jpg)
+![Exemplo de Link para Wireframe]([docs/cadastro.jpg](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-si-2023-01-ti1-405102-searched-boovies/blob/master/docs/cadastro.jpg))
 
 ## Tela de Login
-![Exemplo de Link para Wireframe]
+![Exemplo de Link para Wireframe](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-si-2023-01-ti1-405102-searched-boovies/blob/master/docs/cadastro2.jpg)
 
 ## Home Page
 ![Exemplo de Link para Wireframe](https://user-images.githubusercontent.com/127231260/231803360-ea7dbb88-feb8-4fb5-a10b-66de7866cc7b.png)
 
 ## Mais assistidos 
-> ![Exemplo de Link para Wireframe](https://user-images.githubusercontent.com/127231260/230113033-fce9d16f-9158-4ee4-9827-92f45a6aef87.png)
+> ![Exemplo de Link para Wireframe]([https://user-images.githubusercontent.com/127231260/230113033-fce9d16f-9158-4ee4-9827-92f45a6aef87.png](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-si-2023-01-ti1-405102-searched-boovies/blob/master/docs/destaques.jpg))
 
 ## Meus dados
 > ![Exemplo de Link para Wireframe](https://user-images.githubusercontent.com/127231260/230121294-f05fcc92-84dd-4dac-a281-0e3a9cd381c3.png)
@@ -125,7 +125,7 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 > ![Exemplo de Link para Wireframe](https://user-images.githubusercontent.com/127231260/230113598-52294fcd-b869-4e41-93b6-bd9392b2cfa1.jpg)
 
 ## Configurações 
-> ![Exemplo de Link para Wireframe](https://user-images.githubusercontent.com/127231260/230114148-4c9a9f7f-31ae-464e-8d9a-70911a0ef41f.png)
+> ![Exemplo de Link para Wireframe]([https://user-images.githubusercontent.com/127231260/230114148-4c9a9f7f-31ae-464e-8d9a-70911a0ef41f.png](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-si-2023-01-ti1-405102-searched-boovies/blob/master/docs/configuracoes.jpg))
  
 ## Favoritos
 > ![Exemplo de Link para Wireframe](https://user-images.githubusercontent.com/127231260/231798578-d4a9402b-e0fb-421a-8309-d5b1d2f39c1a.png)
