@@ -107,7 +107,7 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 
 # Wireframes
 ## Tela de cadastro
-![Exemplo de Link para Wireframe](https://user-images.githubusercontent.com/imgur.com/a/P4kODdV)
+![Exemplo de Link para Wireframe]([https://user-images.githubusercontent.com/imgur.com/a/P4kODdV](https://github.com/ICEI-PUCMinas-PSG-SI-TI/psg-si-2023-01-ti1-405102-searched-boovies/blob/master/docs/cadastro.jpg))
 
 ## Tela de Login
 ![Exemplo de Link para Wireframe]
