@@ -99,7 +99,24 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 |RF-007| O site deve permitir que usuários possam comentar sobre filmes/séries/livros | BAIXA | 
 |RF-008| O site deve exibir os comentários registrados juntamente com o filme/série/livro exibido  | BAIXA |
 
+# Metodologia de Trabalho
+## Análise de requisitos: 
+Buscamos criar um site simples e funcional para o publico amante de livros/filmes, com objetivo de ampliar o conhecimento cultural das pessoas e com intuito de despertar a curiosidade e vontade do usuário de descobrir novos filmes/livros. O site também conta com funcionalidades como: favoritar um conteúdo desejado, e uma tela que apresenta ao usuário os livros e filmes mais aclamados pela crítica. Esse processo foi de tamanha importância para o desenvolvimento do site.
 
+## Design Thinking:
+Abordamos alguns processos que são: o desenvolvimento de produtos que visa identificar a necessidade dos usuários, a geração de ideias, a identificação dos pontos problemáticos do nosso projeto e a construção de soluções.
+
+## Scrum:
+Na sprint 1 nosso grupo se reuniu pela 1° vez e debatemos as ideias do projeto e pensamos em como dividiriamos o trabalho.
+
+Na sprint 2 fizemos a divisão das telas, o design do site, incluindo a logo e as cores predominantes, começamos a fazer as divisões das telas para que cada participante ficasse responsável por uma, e trabalhamos nos códigos.
+
+Na 3° sprint, nos reunímos mais uma vez e acresentamos mais 1 tela para cada participante, essas telas precisavam ter ligação com as tela da sprint 2.
+
+Na 4° e ultima sprint, fizemos reuniões diárias e juntamos todas as telas, decidimos retirar algumas informações desnecessárias e acresentar em outras telas. Atualizamos o código do projeto, gravamos o vídeo do site funcionando, fizemos a documentação, os slides e a divisão da apresentação. 
+
+## Ferramentas utilizadas:
+Fizemos as reuniões por meio do Discord e Whatsapp, e utilizamos o site mockflow para a criação dos wireframes. Os códigos foram realizados por meio do Visual Studio Code (VS Code) e replit. Durante o processo de codificação, utilizamos a linguagem de marcação de HiperTexto HTML para inserir o conteúdo de texto no site, CSS para a estilização e o JavaScript para as funcionalidades de armazenamento de dados e a interação do usuário com o site. Utilizamos a extensão LiveServer no VS Code para observarmos como o site estava funcionando e também para a realização de testes. O GitHub foi usado para hospedarmos nossos códigos e toda a documentação do trabalho.
 
   
   
